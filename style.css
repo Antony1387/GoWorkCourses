@@ -1,0 +1,199 @@
+@font-face {
+    font-family: "Russo one";
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/RussoOne-Regular.ttf);
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 602px;
+    width: 834px;
+}
+.main {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Russo RussoOne-Regular" "Arial" sans-serif ;
+}
+.content {
+    background-color: #fcf8a3;
+    width: 273px;
+    height: 242px;
+    padding-bottom: 0;
+    margin-bottom: 8px;
+}
+.content h2 {
+    margin-top: 0;
+    font-family: Russo One;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.content p {
+    font-family: Russo One;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.image {
+    font-size: 9px;
+    width: 172px;
+    height: 118px;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+.imageTear {
+    font-size: 9px;
+    width: 172px;
+    height: 118px;
+    margin-top: 50px;
+}
+.work {
+    background-color: #F5F3B7;
+    width: 273px;
+    height: 124px;
+    margin-right: 62px;
+    text-align:left;
+    align-self: center;
+    padding-bottom: 0;
+}
+.work h5 {
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    align-self: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.work p {
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.payBtn {
+    background-color: #F3F9DE;
+    width: 118px;
+    height: 56px;
+    font-size: 13px;
+    font-weight: bolder;
+    margin-right: 10px;
+    margin-left: 40px;
+    align-self: flex-start;
+    margin-top: -20px;
+}
+button {
+    width: 118px;
+    height: 56px;
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: justify;
+}
+ button:hover {
+     background-color: #c4f70e;
+     color:white;
+ }
+.inform {
+    background-color: #E4BDBD;
+    width: 104px;
+    height: 56px;
+    font-size: 9px;
+    margin-left: 10px;
+    margin-right: 50px;
+    align-self: flex-start;
+    margin-top: -20px;
+    
+}
+.inform .cost {
+    font-family: Russo One;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F3EF8E;
+    display: flex; 
+    align-items: center; justify-content: start
+}
+.inform p {
+    font-family: Russo One;
+font-size: 9px;
+font-style: normal;
+font-weight: 400;
+line-height: 3px;
+letter-spacing: 0em;
+text-align: left;
+padding-top: 3px;
+}
+
+.image img{
+    width: 172px;
+    height: 118px;
+}
+.imageTear img{
+    width: 172px;
+    height: 118px;
+}
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+figcaption {
+    font-size: 9px;
+    width: 159px;
+    height: 20px;
+}
+h2 {
+    font-size: 24px;
+}
+.pageFooter {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Russo RussoOne-Regular" "Arial" sans-serif ;
+    width: 834px;
+    height: 72px;
+    background: #000000;
+    margin-left: 100px;
+    margin-top: 120px;
+    flex: 0 0 auto;
+}
+.pageFooter a {
+    color: white;
+    font-family: Russo One;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0 5px;
+    text-decoration: none;
+}
+.pageFooter .logo {
+    margin-right: 150px;
+}
